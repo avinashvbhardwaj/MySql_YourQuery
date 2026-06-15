@@ -60,8 +60,7 @@ FROM	employees	e1
 		ON		e1.manager_id	=	e2.employee_id	AND	e1.salary	>	e2.salary;
         
 --	ASSIGNMENT: BASIC JOINS
---	There is a discrepancy between our orders and product tables in the database
---	Could you use your join knowledge to figure out which products exists in one table, but not the other ?
+--	Find products which within 0.25 cents price unit
 
 --	SOLUTION
 --	1.	select product table
